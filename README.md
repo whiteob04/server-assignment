@@ -15,7 +15,7 @@ The server uses port 5000.
 
 Clone the repository:
 
-bash
+
 git clone https://github.com/whiteob04/server-assignment.git
 cd server-assignment
 
