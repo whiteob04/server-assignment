@@ -20,15 +20,15 @@ git clone https://github.com/whiteob04/server-assignment.git
 cd server-assignment
 
 ## Create a virtual environment 
-py -m venv .venv 
+py -m venv .venv |
 python3 -m venv .venv for mac/linux
 
 ## Activate the virtual environment:
-.venv\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1 |
 source .venv/bin/activate for mac/linux
 
 ## Install the dependencies:
-python -m pip install -r requirements.txt
+python -m pip install -r requirements.txt |
 python -m pip install Flask (if No module named 'flask' error.)
 
 ## From the repository root, start the server:
@@ -43,7 +43,7 @@ http://127.0.0.1:5000/books
 
 ## Windows PowerShell
 Open a second terminal and run:
-curl.exe http://127.0.0.1:5000/books
+curl.exe http://127.0.0.1:5000/books |
 curl http://127.0.0.1:5000/books for mac/linux
 
 ## Example Response
